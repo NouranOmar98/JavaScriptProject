@@ -48,18 +48,25 @@ height: 100%;
     }
     #items:hover{
     background-color:white;
-    border-radius: 10px;
+    border-radius: 15px;
     font-size: 20px;
     padding: 10px;
     border:white;
     color:#729557;
-    text-shadow: 5px 5px 15px black;
+    
     }
     /*  */
     /* Main */
     .main{
         background-color: #e3e3e3;
         
+    }
+    .image{
+        background-image:url("hello1.png");
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+       
     }
     .both{
         display: flex;
@@ -203,6 +210,51 @@ height: 100%;
     transition: 0.6s;
  }
 /*  */
+/* Footer */
+.footer{
+    background-color: #729557;
+    height: x;
+    color:white;
+    
+  }
+  .foot{
+    display: flex;
+   justify-content: space-between;
+  
+  }
+  .footer a:hover{
+    background-color:white;
+    border: #729557 solid 3px;
+    border-radius: 20px;
+    color:#729557;
+    padding: 5px;
+    }
+  .footer ul{
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+  }
+  .footer ul .li{
+  display: flex;
+ 
+  }
+  h1{
+    margin-right: 50px;
+    
+  }
+  /* .foot{
+    width:90%;
+  } */
+  .footer i{
+    margin-left: 50px;
+    transition: 0.6s;
+    margin-bottom: 30px;
+  }
+  .footer a{
+    text-decoration: none;
+    color: white;
+    
+  }
 
 @media (max-width:768px){
     .Navbar .both .nav{
@@ -229,6 +281,7 @@ height: 100%;
         width: 100%;
         gap: 30px;
     }  
+    
 }
 
 @media (min-width:481px) and (max-width:768px){
